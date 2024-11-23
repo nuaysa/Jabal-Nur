@@ -4,7 +4,7 @@ import { Nav } from "./hamburger";
 
 export default function Navbar (){
     return (
-        <div className="fixed z-50 items-center p-8 h-[40px] w-[98.9vw] bg-orange-500/80 flex justify-between">
+        <div className="fixed z-50 items-center p-8 h-[40px] w-screen lg:w-[98.8vw] bg-orange-500/80 flex justify-between">
             <div className="flex lg:hidden">
                 <Nav/>
             </div>

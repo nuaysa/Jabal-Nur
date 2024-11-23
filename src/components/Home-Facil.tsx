@@ -1,7 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BsHouse } from "react-icons/bs";
 import { FaBolt, FaHiking, FaMosque, FaParking, FaRestroom, FaWifi } from "react-icons/fa";
-import { MdPool } from "react-icons/md";
+import { MdOutlineHotTub, MdPool } from "react-icons/md";
 import { PiTent} from "react-icons/pi";
 
 export default function Fasil() {
@@ -31,6 +32,9 @@ export default function Fasil() {
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
                 <MdPool /> <p>Kolam Berenang </p>
+                </div>
+                <div className="flex gap-5 text-2xl items-center">
+                <MdOutlineHotTub /> <p>Kolam Air Panas</p>
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
                 <BsHouse /> <p>Aula </p>
