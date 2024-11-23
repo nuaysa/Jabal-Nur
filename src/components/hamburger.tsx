@@ -16,7 +16,7 @@ export const Nav = () => {
       <nav className="text-white">
         <nav className="flex items-center gap-x-60">
             <Link href="/" className="flex gap-3 items-center">
-              <Image alt="brand" src="" width={50} height={50} className="border rounded-full" />
+              <Image alt="brand" src="/logo.png" width={50} height={50} className="border rounded-full" />
               <p className="font-extrabold max-text-[25px] absolute left-24">Jabal Nur</p>
             </Link>
           <div className="block mt-2 absolute right-8">
