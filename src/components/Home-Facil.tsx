@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { BsHouse } from "react-icons/bs";
 import { FaBolt, FaHiking, FaMosque, FaParking, FaRestroom, FaWifi } from "react-icons/fa";
