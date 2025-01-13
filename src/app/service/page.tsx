@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { FaRegSmileBeam } from "react-icons/fa";
+import Link from "next/link";
+import { FaInstagram, FaRegSmileBeam, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import { PiMountainsBold,PiTentBold } from "react-icons/pi";
 
 export default function service() {
@@ -26,7 +27,7 @@ export default function service() {
                 <div>
 
             <div className="grid grid-rows gap-5 lg:grid-cols-3 justify-items-center">
-                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] w-[400px] flex flex-col p-3">
+                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] max-w-[400px] flex flex-col p-3">
                     <div className="text-5xl">
                 <FaRegSmileBeam />
                     </div>
@@ -34,7 +35,7 @@ export default function service() {
                     <hr className="border border-black"/>
                     <p className="px-5">Di sini, kami berkomitmen untuk menyambut setiap pengunjung dengan keramahan terbaik, memastikan Anda merasa nyaman dan menikmati setiap momen selama berada di tempat wisata kami.</p>
                 </div>
-                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] w-[400px] flex flex-col p-3">
+                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] max-w-[400px] flex flex-col p-3">
                     <div className="text-5xl">
                     <PiMountainsBold />
                     </div>
@@ -42,7 +43,7 @@ export default function service() {
                     <hr className="border border-black"/>
                     <p className="px-5">Kami selalu mengutamakan kenyamanan Anda, menghadirkan fasilitas dan layanan terbaik agar kunjungan Anda di tempat wisata kami menjadi pengalaman yang tak terlupakan.</p>
                 </div>
-                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] w-[400px] flex flex-col p-3">
+                <div className="bg-white shadow-md rounded-xl items-center shadow-slate-400 h-[300px] max-w-[400px] flex flex-col p-3">
                     <div className="text-5xl">
                     <PiTentBold />
                     </div>
@@ -84,7 +85,7 @@ export default function service() {
                         *Tiket masuk sudah termasuk parkir dan fasilitas kamar mandi
                 </span>
                 <div className="flex flex-col lg:flex-row justify-center">
-                    <div className="lg:rounded-tl-xl rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:min-w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
+                    <div className="lg:rounded-tl-xl max-md:rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
                         <span className="hover:translate-x-6">
                         <h1>
                             Paket 1
@@ -92,7 +93,7 @@ export default function service() {
                             30.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <ul className="list-disc">
                         <li>fasilitas aula</li>
                         <li>fasilitas kamar mandi</li>
@@ -102,7 +103,7 @@ export default function service() {
                 </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center">
-                    <div className="lg:rounded-tl-xl rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:min-w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
+                    <div className="lg:rounded-tl-xl max-md:rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
                         <span className="hover:translate-x-6">
                         <h1>
                             Paket 2
@@ -110,7 +111,7 @@ export default function service() {
                             50.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">
@@ -131,7 +132,7 @@ export default function service() {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center">
-                    <div className="lg:rounded-tl-xl rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:min-w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
+                    <div className="lg:rounded-tl-xl max-md:rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
                         <span className="hover:translate-x-6">
                         <h1>
                             Paket 3
@@ -139,7 +140,7 @@ export default function service() {
                             110.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">
@@ -160,18 +161,18 @@ export default function service() {
                     </div>
                     </div>
                 </div>
-                <div className="flex  flex-col lg:flex-row justify-center">
-                    <div className="lg:rounded-tl-xl rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:min-w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
+                <div className="flex flex-col lg:flex-row justify-center">
+                    <div className="lg:rounded-tl-xl max-md:rounded-t-xl shadow-md lg:rounded-bl-xl bg-white py-7 lg:py-0 lg:min-h-[200px] items-center flex lg:justify-end p-4 lg:w-[400px] font-semibold sm:text-lg md:text-xl lg:text-3xl px-20">
                         <span className="hover:translate-x-6">
                         <h1>
                             Paket 4 
-
-                            <span className="lg:text-2xl md:text-xl sm:text-md"> (untuk SD/MI) </span>
+                            <br />(untuk SD/MI)
+                            {/* <span className="lg:text-2xl md:text-xl sm:text-md"> (untuk SD/MI) </span> */}
                             </h1>
                             75.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">
@@ -194,6 +195,14 @@ export default function service() {
                     </div>
                 </div>
             </div>
+            <div className="flex flex-col justify-center items-center text-white bg-orange-500/50 rounded-xl py-5 mx-5 lg:mx-60">
+                <h1 className="font-semibold mb-1 text-lg py-3">Contact Us</h1>
+                <div className="flex text-center justify-between max-sm:flex-col gap-5 lg:gap-10">
+                <Link href="https://api.whatsapp.com/send/?phone=6281395102904&text&type=phone_number&app_absent=0" className="flex items-center gap-[3px] hover:underline"><FaWhatsapp className="text-[22px]"/>+62-813-9510-2904</Link>
+                <Link href="https://www.instagram.com/jabalnur.tasik/" className="flex items-center gap-[3px] hover:underline"><FaInstagram className="text-[22px]"/>@jabalnur.tasik</Link>
+                <Link href="https://www.tiktok.com/@jabalnurtasik?_t=ZS-8t0Wsd3871T&_r=1" className="flex items-center gap-[3px] hover:underline"><FaTiktok className="text-[22px]"/>@jabalnurtasik</Link>
+                </div>
+              </div>
         </div>
 
         </div>

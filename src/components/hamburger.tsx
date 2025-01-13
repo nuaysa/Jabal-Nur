@@ -36,8 +36,8 @@ export const Nav = () => {
           <Link href="/" className="text-white hover:text-neutral-300">
             Home
           </Link>
-          <Link href="/profile" className="text-white hover:text-neutral-300">
-            Profile
+          <Link href="/about" className="text-white hover:text-neutral-300">
+            About
           </Link>
           <Link href="/service" className="text-white hover:text-neutral-300">
             Service

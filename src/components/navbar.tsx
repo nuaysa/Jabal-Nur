@@ -28,7 +28,7 @@ export default function Navbar (){
 
             <div className="justify-between gap-2 hidden lg:flex text-white">
             <Link href="/" className="py-1 px-3 rounded-lg hover:border border-orange-800 hover:backdrop-blur-sm hover:bg-orange-500/60">Home</Link>
-            <Link href="/profile"  className="py-1 px-3 rounded-lg hover:border border-orange-800 hover:backdrop-blur-sm hover:bg-orange-500/60" >Profile</Link>
+            <Link href="/about"  className="py-1 px-3 rounded-lg hover:border border-orange-800 hover:backdrop-blur-sm hover:bg-orange-500/60" >About</Link>
             <Link href="/service"  className="py-1 px-3 rounded-lg hover:border border-orange-800 hover:backdrop-blur-sm hover:bg-orange-500/60">Service</Link>
             </div>
 

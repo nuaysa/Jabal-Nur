@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { BsHouse } from "react-icons/bs";
-import { FaBolt, FaHiking, FaMosque, FaParking, FaRestroom, FaWifi } from "react-icons/fa";
+import { FaBolt, FaMosque, FaParking, FaRestroom, FaWifi } from "react-icons/fa";
 import { MdOutlineHotTub, MdPool } from "react-icons/md";
 import { PiTent} from "react-icons/pi";
 
