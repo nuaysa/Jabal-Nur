@@ -94,12 +94,18 @@ export default function service() {
                             </span>
                         </div>
                     <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div>
+
+                    <h1 className="font-bold">
+            fasilitas:            
+            </h1>
                     <ul className="list-disc">
-                        <li>fasilitas aula</li>
-                        <li>fasilitas kamar mandi</li>
-                        <li>fasilitas kolam air panas</li>
-                        <li>fasilitas Wifi</li>
+                        <li>aula</li>
+                        <li>kamar mandi</li>
+                        <li>kolam air panas</li>
+                        <li>Wifi</li>
                     </ul>
+                    </div>
                 </div>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center">
@@ -114,17 +120,19 @@ export default function service() {
                     <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
-                    <ul className="list-disc">
-                        <li>fasilitas aula</li>
-                        <li>fasilitas kamar mandi</li>
-                        <li>fasilitas kolam air panas</li>
-                        <li>fasilitas Wifi</li>
-                        <li>fasilitas tenda kapasitas 4 orang</li>
+<h1 className="font-bold">
+            fasilitas:            
+            </h1><ul className="list-disc">
+                        <li>aula</li>
+                        <li>kamar mandi</li>
+                        <li>kolam air panas</li>
+                        <li>Wifi</li>
+                        <li>tenda kapasitas 4 orang</li>
                     </ul>
 </div>
 <div>
                     <ul className="list-disc">
-                        <li>fasilitas sound system</li>
+                        <li>sound system</li>
                         <li>air mineral/ galon</li>
                     </ul>
 </div>
@@ -143,17 +151,20 @@ export default function service() {
                     <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
+    <h1 className="font-bold">
+        fasilitas: 
+        </h1>
                     <ul className="list-disc">
-                        <li>fasilitas aula</li>
-                        <li>fasilitas kamar mandi</li>
-                        <li>fasilitas kolam air panas</li>
-                        <li>fasilitas Wifi</li>
-                        <li>fasilitas tenda kapasitas 4 orang</li>
+                        <li>aula</li>
+                        <li>kamar mandi</li>
+                        <li>kolam air panas</li>
+                        <li>Wifi</li>
+                        <li>tenda kapasitas 4 orang</li>
                     </ul>
 </div>
 <div>
                     <ul className="list-disc">
-                        <li>fasilitas sound system</li>
+                        <li>sound system</li>
                         <li>air mineral/ galon</li>
                         <li>makan 2x (daging sapi/ ikan/ ayam)</li>
                     </ul>
@@ -175,18 +186,21 @@ export default function service() {
                     <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
+<h1 className="font-bold">
+fasilitas: 
+</h1>
                     <ul className="list-disc">
-                        <li>fasilitas aula</li>
-                        <li>fasilitas kamar mandi</li>
-                        <li>fasilitas kolam air panas</li>
-                        <li>fasilitas Wifi</li>
-                        <li>fasilitas tenda kapasitas 6 orang 
+                        <li>aula</li>
+                        <li>kamar mandi</li>
+                        <li>kolam air panas</li>
+                        <li>Wifi</li>
+                        <li>tenda kapasitas 6 orang 
                             <span> <br />(untuk SD/MI)</span></li>
                     </ul>
 </div>
 <div>
                     <ul className="list-disc">
-                        <li>fasilitas sound system</li>
+                        <li>sound system</li>
                         <li>air mineral/ galon</li>
                         <li>makan 2x (daging sapi/ ikan/ ayam)</li>
                     </ul>
