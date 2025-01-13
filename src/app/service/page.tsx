@@ -93,7 +93,7 @@ export default function service() {
                             30.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <ul className="list-disc">
                         <li>fasilitas aula</li>
                         <li>fasilitas kamar mandi</li>
@@ -111,7 +111,7 @@ export default function service() {
                             50.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">
@@ -140,7 +140,7 @@ export default function service() {
                             110.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">
@@ -172,7 +172,7 @@ export default function service() {
                             75.000/orang
                             </span>
                         </div>
-                    <div className="bg-orange-500/80 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
+                    <div className="bg-orange-500/60 shadow-md lg:rounded-tr-xl lg:min-h-[200px] lg:w-[700px] max-md:rounded-b-xl lg:rounded-br-xl p-3 flex py-3  items-center lg:text-lg text-white px-16">
                     <div className="flex gap-7">
 <div>
                     <ul className="list-disc">

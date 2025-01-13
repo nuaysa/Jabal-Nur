@@ -21,7 +21,7 @@ export const Nav = () => {
             </Link>
           <div className="block mt-2 absolute right-8">
             <button aria-label="navbar" onClick={toggleMenu} 
-            onMouseLeave={() => setIsOpen(false)}
+            // onMouseLeave={() => setIsOpen(false)}
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
                 <path strokeLinecap="round" strokeLinejoin="round" 
@@ -32,7 +32,7 @@ export const Nav = () => {
         </nav>
 
         {/* Mobile Menu */}
-        <div className={`bg-orange-500 lg:hidden ${isOpen ? "flex" : "hidden"} mt-[80px] w-[98vw] flex flex-col gap-3 mr-40 text-center  items-center overflow-hidden rounded-b-lg py-2`}>
+        <div className={`bg-orange-500 lg:hidden ${isOpen ? "flex" : "hidden"} mt-[80px] w-full flex flex-col gap-3 mr-40 text-center  items-center overflow-hidden rounded-b-lg py-2`}>
           <Link href="/" className="text-white hover:text-neutral-300">
             Home
           </Link>
