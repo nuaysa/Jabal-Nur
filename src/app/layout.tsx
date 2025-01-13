@@ -17,8 +17,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Jabal Nur",
-  description: "Jabal Nur: Tempat Camping Seru di Tengah Keindahan Alam",
-  icons:"/logo.png"};
+  description: "Jabal Nur: Tempat Camping Seru di Tengah Keindahan Alam"
+}
 
 export default function RootLayout({
   children,
