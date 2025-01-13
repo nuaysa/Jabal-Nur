@@ -26,7 +26,7 @@ export default function Footer() {
                 <div className="flex flex-col text-center gap-2">
                 <Link href="https://api.whatsapp.com/send/?phone=6281395102904&text&type=phone_number&app_absent=0" className="flex items-center gap-[3px] hover:underline"><FaWhatsapp className="text-[22px]"/>+62-813-9510-2904</Link>
                 <Link href="https://www.instagram.com/jabalnur.tasik/" className="flex items-center gap-[3px] hover:underline"><FaInstagram className="text-[22px]"/>@jabalnur.tasik</Link>
-                <Link href="" className="flex items-center gap-[3px] hover:underline"><FaTiktok className="text-[22px]"/>@jabalnur.tasik</Link>
+                <Link href="https://www.tiktok.com/@jabalnurtasik?_t=ZS-8t0Wsd3871T&_r=1" className="flex items-center gap-[3px] hover:underline"><FaTiktok className="text-[22px]"/>@jabalnurtasik</Link>
                 </div>
               </div>
           </div>

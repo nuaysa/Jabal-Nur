@@ -5,49 +5,49 @@ export default function Marquees() {
     return(
         <Marquee className="h-40">
             <Image
-            src="https://maps.app.goo.gl/rQ8JPXB21Q8UBQa48"
+            src="/jabal-nur/IMG-20241128-WA0021.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/14Fripr4UbgR7Sd68"
+            src="/jabal-nur/IMG-20241128-WA0022.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/TtqF331W6KZ2qQNQ8"
+            src="/jabal-nur/IMG-20241128-WA0023.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/BpTvXJZJy5fKuZAx5"
+            src="/jabal-nur/IMG-20241128-WA0024.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/CyAK8ky7jqw6gd8X7"
+            src="/jabal-nur/IMG-20241128-WA0025.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/tDXeA7MdiR5Hz7dPA"
+            src="/jabal-nur/IMG-20241128-WA0026.jpg"
             alt=""
             width={1000}
             height={100}
             className="h-40 w-72"
             />
             <Image
-            src="https://maps.app.goo.gl/KG6LenBaHfvan2G99"
+            src="/jabal-nur/IMG-20241128-WA0032.jpg"
             alt=""
             width={1000}
             height={100}

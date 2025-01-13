@@ -4,12 +4,12 @@ import { Nav } from "./hamburger";
 
 export default function Navbar (){
     return (
-        <div className="fixed z-50 items-center p-8 h-[40px] w-screen lg:w-[98.8vw] bg-orange-500/80 flex justify-between">
-            <div className="flex lg:hidden">
+        <div className="fixed z-50 items-center py-8 lg:p-8 h-[40px] lg:w-[98.9vw] bg-orange-500/80 flex justify-between">
+            <div className="w-[98.9vw] lg:hidden">
                 <Nav/>
             </div>
 
-            <div className="hidden lg:flex flex-row">
+            <div className="hidden lg:flex flex-row justify-center mt-2">
             <Link href="/" className="flex gap-2">
                 <Image
                 src="/logo.png"

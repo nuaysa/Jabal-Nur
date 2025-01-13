@@ -6,8 +6,8 @@ import { PiTent} from "react-icons/pi";
 
 export default function Fasil() {
     return (
-        <div className="bg-white w-screen h-full py-10 px-5 lg:px-0 flex flex-col justify-evenly items-center my-20 gap-20">
-            <div className="flex flex-col lg:flex-row gap-40">
+        <div className="bg-white w-[98.9vw] h-full py-10 px-5 lg:px-0 flex flex-col justify-evenly items-center my-20 gap-10 lg:gap-20">
+            <div className="flex flex-col lg:flex-row gap-10  lg:gap-40">
           
 
             <div className="bg-gradient-to-b from-orange-400 to-orange-500 rounded-2xl min-h-[560px] min-w-[400px] px-10 text-white flex flex-col py-10 gap-5">
@@ -33,17 +33,15 @@ export default function Fasil() {
                 <MdPool /> <p>Kolam Berenang </p>
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
-                <MdOutlineHotTub /> <p>Kolam Air Panas</p>
-                </div>
-                <div className="flex gap-5 text-2xl items-center">
                 <BsHouse /> <p>Aula </p>
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
                 <FaParking /> <p>Area Parkir </p>
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
-                <FaHiking /> <p>Track Hiking & Area Outbond </p>
+                <MdOutlineHotTub /> <p>Kolam Air Panas</p>
                 </div>
+                <p className="text-sm">*tersedia kolam air panas khusus wanita</p>
             </div>
 
             <div className="bg-gradient-to-b from-orange-400 to-orange-500 rounded-2xl min-h-[560px] min-w-[400px] px-10 text-white flex flex-col py-10 gap-16">
@@ -60,13 +58,13 @@ export default function Fasil() {
                 <PiTent /> <p>Paket 3 : 110.000/ orang</p>
                 </div>
                 <div className="flex gap-5 text-2xl items-center">
-                <PiTent /> <p>Paket 4(untuk SD/Mi) : 75.000</p>
+                <PiTent /> <p>Paket 4 (untuk SD/Mi) : 75.000</p>
                 </div>
             </div>
             </div>
 
-            <div className="hover:bg-orange-500/60 hover:text-white border border-orange-500 px-16 py-5 rounded-full text-lg ">
-                <Link href="/Service" className="">
+            <div className="hover:bg-orange-500/60 hover:text-white border border-orange-500 px-16 py-4 rounded-full text-lg ">
+                <Link href="/service" className="">
                 <p>Lihat Selengkapnya</p>
                 </Link>
             </div>
