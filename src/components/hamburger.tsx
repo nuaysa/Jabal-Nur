@@ -32,7 +32,7 @@ export const Nav = () => {
         </nav>
 
         {/* Mobile Menu */}
-        <div className={`bg-orange-500 lg:hidden ${isOpen ? "flex" : "hidden"} mt-[80px] w-full flex flex-col gap-3 mr-40 text-center  items-center overflow-hidden rounded-b-lg py-2`}>
+        <div className={`bg-orange-500 lg:hidden ${isOpen ? "flex" : "hidden"} mt-[80px] w-screen flex flex-col gap-3 mr-40 text-center  items-center overflow-hidden rounded-b-lg py-2`}>
           <Link href="/" className="text-white hover:text-neutral-300">
             Home
           </Link>
