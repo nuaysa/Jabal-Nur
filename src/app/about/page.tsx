@@ -26,21 +26,21 @@ export default function Profile() {
       </div>
       <h1 className="bg-orange-400 text-orange-300 text-5xl font-bold px-2 lg:px-20 pt-16">Daya Tarik Wisata Jabal Nur</h1>
       <div className="flex flex-col lg:flex-row items-center justify-between bg-orange-300 h-max lg:px-20 pb-7 lg:py-7">
-        <Image src="/jabal-nur/IMG-20241128-WA0025.jpg" alt="" width={500} height={600} className="pb-5 lg:hidden flex" data-aos="fade-right" />
+        <Image src="/jabal-nur/IMG-20241128-WA0026.jpg" alt="" width={500} height={600} className="pb-5 lg:hidden flex" data-aos="fade-right" />
         <p className="text-md lg:text-lg lg:w-1/2 text-orange-500 leading-9 mx-10 font-bold">
           <span className="lg:text-2xl text-xl"> • 15.000 Kincir Angin Warna-Warni </span>Salah satu ikon Jabal Nur yang sangat populer adalah instalasi 15.000 kincir angin warna-warni yang menciptakan pemandangan luar biasa dan cocok untuk
           latar belakang foto yang Instagrammable.
         </p>
-        <Image src="/jabal-nur/IMG-20241128-WA0025.jpg" alt="" width={500} height={600} className="rounded-xl hidden lg:flex" data-aos="fade-right" />
+        <Image src="/jabal-nur/IMG-20241128-WA0026.jpg" alt="" width={500} height={600} className="rounded-xl hidden lg:flex" data-aos="fade-right" />
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between bg-orange-300 h-max lg:px-20 py-7">
-        <Image src="/jabal-nur/IMG-20241128-WA0026.jpg" alt="" width={500} height={600} className="lg:rounded-xl pb-5 lg:pb-0" data-aos="fade-right" />
+        <Image src="/jabal-nur/IMG-20241128-WA0021.jpg" alt="" width={500} height={600} className="lg:rounded-xl pb-5 lg:pb-0" data-aos="fade-right" />
         <p className="text-md lg:text-lg lg:w-1/2 text-orange-500 leading-9 mx-10 font-bold">
           <span className="text-xl lg:text-2xl"> • Pemandangan Alam yang Indah </span>Dikelilingi oleh panorama pegunungan yang hijau dan udara yang segar, Jabal Nur menjadi tempat yang ideal untuk relaksasi dan menikmati keindahan alam.
         </p>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between bg-orange-300 h-max lg:px-20 py-7">
-        <Image src="/jabal-nur/IMG-20241128-WA0023.jpg" alt="" width={500} height={600} className="lg:rounded-xl pb-5 lg:hidden lg:pb-0" data-aos="fade-right" />
+        <Image src="/jabal-nur/kolam.jpg" alt="" width={500} height={600} className="lg:rounded-xl pb-5 lg:hidden lg:pb-0" data-aos="fade-right" />
         <p className="text-md lg:text-lg lg:w-1/2 text-orange-500 leading-9 mx-10 font-bold">
           <span className="text-xl lg:text-2xl"> • Fasilitas Lengkap </span>
           Jabal Nur menawarkan berbagai fasilitas yang dirancang untuk kenyamanan pengunjung, seperti:
@@ -51,7 +51,7 @@ export default function Profile() {
           <br />
           3. Area Perkemahan: Cocok untuk Anda yang ingin menikmati malam di bawah langit berbintang.
         </p>
-        <Image src="/jabal-nur/IMG-20241128-WA0023.jpg" alt="" width={500} height={600} className="rounded-xl hidden lg:flex" data-aos="fade-right" />
+        <Image src="/jabal-nur/kolam.jpg" alt="" width={500} height={500} className="rounded-xl hidden lg:flex" data-aos="fade-right" />
       </div>
       <Marquees />
     </div>

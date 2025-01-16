@@ -7,9 +7,9 @@ export default function service() {
     return(
         <div className="pt-16 bg-orange-400 ">
             <div className="flex gap-2 h-svh justify-between">
-                <div className="hidden lg:flex ">
+                <div className="hidden lg:flex bg-white">
                 <Image
-                src="/saung.jpg"
+                src="/jabal-nur/IMG-20241128-WA0023.jpg"
                 alt="background"
                 width={800}
                 height={500}
